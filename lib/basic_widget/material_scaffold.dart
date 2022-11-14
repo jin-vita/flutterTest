@@ -8,7 +8,7 @@ class MaterialScaffold extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: const IconButton(onPressed: null, icon: Icon(Icons.menu)),
-        title: const Text('MyScaffold'),
+        title: const Text('MaterialScaffold'),
         actions: const [IconButton(onPressed: null, icon: Icon(Icons.search))],
       ),
       body: const Center(
